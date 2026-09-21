@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # lifeline.nix — "never lose a headless tiny VM": four independently
 # toggleable mechanisms, each answering a different way a small cloud VM
 # goes dark and stays dark. None of them depend on each other and none are

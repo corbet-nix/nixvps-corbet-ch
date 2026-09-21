@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # tiny-vm.nix — a conservative baseline profile for small, disk- and
 # RAM-constrained cloud NixOS VMs (the free-tier / cheapest-tier class:
 # roughly 1 vCPU, ~1 GB RAM, a small disk).

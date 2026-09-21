@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # deploy-target.nix — the passive-receiver counterpart to the pull-update
 # module: it configures a node to TRUST a signed binary cache and to accept
 # a signed deploy identity, but performs no update logic itself.

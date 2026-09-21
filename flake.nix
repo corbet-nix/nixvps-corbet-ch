@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixvps - NixOS profiles for tiny (1 GB-class) cloud VMs";
 

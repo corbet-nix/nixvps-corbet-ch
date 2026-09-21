@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Shared by pull-update and its behavioral check. PROFILE is the system
 # profile base path, normally /nix/var/nix/profiles/system.
 

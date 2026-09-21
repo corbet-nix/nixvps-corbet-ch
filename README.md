@@ -5,9 +5,9 @@
 NixOS guest policy for tiny VMs: conservative runtime profiles,
 provider-facing guest requirements, and lifelines for machines with very
 little RAM. Boot policy belongs to
-[nixboot](https://github.com/julian-corbet/nixboot-corbet-ch), and every
+[nixboot](https://github.com/corbet-nix/nixboot-corbet-ch), and every
 delivery path belongs to
-[nixdeploy](https://github.com/julian-corbet/nixdeploy-corbet-ch).
+[nixdeploy](https://github.com/corbet-nix/nixdeploy-corbet-ch).
 
 This repository still contains its earlier `pull-update`, `deploy-target`,
 and `image-bake` implementations. They are deprecated ownership overlaps to
@@ -81,7 +81,7 @@ predate this separation and remain until their consumers migrate. See
 contract; it is not the target design.
 
 **Memory-pressure tuning.** Deep `zram`/`zswap`/OOM-killer engineering belongs
-to the sibling [nixram](https://github.com/julian-corbet/nixram-corbet-ch)
+to the sibling [nixram](https://github.com/corbet-nix/nixram-corbet-ch)
 project. `nixvps` assumes that layer is already handled; it focuses on the
 system-shape and delivery problems.
 
@@ -500,15 +500,15 @@ Future work:
 ## Related projects
 
 `nixvps` is one of several independent, narrowly-scoped NixOS/Nix projects.
-[nixram](https://github.com/julian-corbet/nixram-corbet-ch) handles
+[nixram](https://github.com/corbet-nix/nixram-corbet-ch) handles
 memory-pressure tuning (zram, zswap, OOM); **nixarch** does the same
 "declarative machines" idea for the Arch/AUR family;
-[nixremote](https://github.com/julian-corbet/nixremote-corbet-ch) forwards
+[nixremote](https://github.com/corbet-nix/nixremote-corbet-ch) forwards
 native Wayland app windows cross-machine;
-[nixsh](https://github.com/julian-corbet/nixsh-corbet-ch) is the
+[nixsh](https://github.com/corbet-nix/nixsh-corbet-ch) is the
 safe-adoption pattern for declarative shell config, across fish, bash and zsh. Use them together
 or separately.
 
-## License
+## Licence
 
-[MIT License](LICENSE) &copy; 2026 Julian Corbet
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

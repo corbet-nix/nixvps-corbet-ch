@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # pull-update.nix — autonomous, reboot-less, PULL-based self-update for a
 # tiny, possibly public-only NixOS node (no stable inbound route, so a
 # central push-based deploy controller cannot always reach it). This is the

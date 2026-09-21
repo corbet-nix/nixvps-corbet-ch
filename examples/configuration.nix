@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Minimal example: all three nixvps modules enabled and wired together.
 #
 # This is a complete flake.nix that pulls nixvps and shows how to enable
@@ -10,7 +11,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nixvps.url = "github:julian-corbet/nixvps";
+    nixvps.url = "github:corbet-nix/nixvps-corbet-ch";
   };
 
   outputs = { self, nixpkgs, nixvps }: {

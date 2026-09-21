@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Minimal example: all four nixvps.lifeline mechanisms enabled on one host.
 #
 # This is a complete flake.nix showing nixvps.lifeline.watchdog,
@@ -10,7 +11,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nixvps.url = "github:julian-corbet/nixvps";
+    nixvps.url = "github:corbet-nix/nixvps-corbet-ch";
   };
 
   outputs = { self, nixpkgs, nixvps }: {

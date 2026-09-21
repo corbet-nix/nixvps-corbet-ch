@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # image-bake.nix — bake a bootable NixOS disk image with `systemd-repart`
 # (nixpkgs' `image.repart` module), so a tiny cloud VM can be started FROM a
 # prebuilt image instead of installed on first boot. This matters whenever

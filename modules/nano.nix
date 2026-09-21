@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # nano.nix — a STRUCTURAL survival profile for the extreme low end: NixOS
 # on a ~256 MB-RAM VPS, one tier below tiny-vm's ~1 GB class. This is the
 # identity of nixvps at its edge: sub-1 GB down to 256 MB.
@@ -15,7 +16,7 @@
 #   This module does NOT do RAM-pressure *tuning*. There is no zram
 #   percentage/algorithm choice here, no zswap, no oomd policy, no memory
 #   ladder. That work belongs to the sibling nixram project
-#   (https://github.com/julian-corbet/nixram-corbet-ch) — nixram decides
+#   (https://github.com/corbet-nix/nixram-corbet-ch) — nixram decides
 #   HOW MUCH memory pressure relief to apply and how aggressively;
 #   `nano.nix` only makes sure the box has the *structural* room for that
 #   tuning to matter in the first place. No exception for zram either --

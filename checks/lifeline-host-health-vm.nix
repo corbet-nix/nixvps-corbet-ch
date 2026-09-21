@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 { pkgs }:
 pkgs.testers.runNixOSTest {
   name = "nixvps-lifeline-host-health-vm";

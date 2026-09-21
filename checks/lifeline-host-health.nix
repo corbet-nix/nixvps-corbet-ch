@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 { pkgs, nixpkgs, system }:
 let
   healthCommand = "test -e /run/workload-healthy";

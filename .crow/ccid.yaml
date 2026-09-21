@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Replace 0d26838935e59dd3d7bc431decb86b067f150d59 with one verified ccid commit before committing this adapter.
 when:
   - event: manual
